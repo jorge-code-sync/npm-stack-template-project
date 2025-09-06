@@ -1,6 +1,5 @@
 version: '3'
 
-
 services:
   orders-db:
     container_name: orders_database
@@ -14,4 +13,3 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123456
       - POSTGRES_DB=ordersdb
-
