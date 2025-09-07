@@ -1,0 +1,7 @@
+{
+  "files.eol": "\n", // siempre usar LF
+  "editor.formatOnSave": true, // autoformato con Prettier al guardar
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
